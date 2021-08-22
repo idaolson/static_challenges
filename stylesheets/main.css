@@ -1,0 +1,80 @@
+
+body {
+  color: white;
+  font-family: verdana;
+}
+
+header {
+  background: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+}
+
+nav {
+  background: navy;
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  padding: 5px;
+}
+
+.login {
+  background: green;
+  /* padding: 3.9vh; */
+  /* height: 10vh */
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.info {
+  background: black;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+main {
+  background-image: url('/Users/idamo/turing/2mod/intermission/static_challenges/images/1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+section {
+  display: flex;
+  justify-content: space-around;
+  color: black;
+  padding: 15px 0px
+}
+
+footer {
+  background: black;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+img {
+  width: 25vw;
+  height: 25vh;
+  object-fit: cover;
+
+}
+
+h1 {
+  font-size: 25px;
+  padding: 5px 20px;
+}
+
+p {
+  font-size: 14px;
+  padding: 5px;
+}
